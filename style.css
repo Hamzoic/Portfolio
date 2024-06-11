@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Noto+Nastaliq+Urdu:wght@500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Chakra Petch', sans-serif;
+            color: white;
+            overflow-x: hidden;
+            margin: 0;
+        }
+
+        .background-image {
+            background-image: url('https://images.pexels.com/photos/2473183/pexels-photo-2473183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+            background-size: cover;
+            background-position: fixed;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 10%;
+            height: 100vh;
+            background-color: transparent;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Chakra Petch', sans-serif;
+            color: white;
+        }
+
+        .sidebar nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar nav ul li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            transition: color 0.3s;
+
+        }
+
+        .sidebar nav ul li a:hover {
+            color: #b300ff; 
+        }
+
+        .main {
+            width: 100%;
+            padding: 10px;
+            margin-left: 10%;
+            max-width: 80vw;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .infoContainer {
+            width: 100vw;
+            background: transparent;
+            border: 2px solid #b300ff;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 10px black;
+            height:60vh;
+            padding: 50px 50px 1px 200px;
+            margin-top: 10%;
+            margin-bottom: 50%;
+            border-radius: 10px;
+        }
+
+        .detail {
+            color: white;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .name {
+            font-size: 70px;
+            font-weight: bolder;
+        }
+
+        .about {
+            font-size: 30px;
+        }
+
+        .buttons {
+            margin-top: 34px;
+        }
+
+        .btn {
+            font-size: 30px;
+            padding: 9px 14px;
+            border-radius: 30px;
+            border-color: white;
+            color: white;
+            font-weight: bold;
+            margin: 0 1px 0 200px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .btn:hover {
+            color: #b300ff;
+        }
+
+        .devPic img {
+            height: 20vh;
+            border-radius: 50%;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .introduction{
+            width: 100vw;
+            background: transparent;
+            border: 2px solid #b300ff;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 10px black;
+            height:60vh;
+            padding: 0 10% 10% 10%;
+            margin: 5% 15% 20% 15%;
+            border-radius: 10px;
+        }
+
+        .myself{
+            width: 100vw;
+            background: transparent;
+            border: 2px solid #b300ff;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 10px black;
+            height:60vh;
+            padding: 0 10% 10% 10%;
+            margin: 5% 15% 20% 15%;
+            border-radius: 10px;
+            
+        }
+
+        .introduction h1,
+        .myself h1 {
+            font-size: 50px;
+            align-items: center;
+            margin-top: 20%;
+            text-align: center;
+        }
+
+        .introduction p,
+        .myself p {
+            text-align: center;
+            font-size: 20px;
+            align-items: center;
+            margin-top: 5%;
+            margin-bottom: 30%;
+        }
+
+        .contactForm {
+            width: 500px;
+            background: transparent;
+            border: 2px solid #b300ff;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 10px black;
+            height:50vh;
+            padding: 10% 10% 0% 10%;
+            margin: 5% 10% 20% 15%;
+            border-radius: 10px;
+        }
+
+        .contactForm h1 {
+            text-align: center;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            font-size: 80px;
+        }
+
+        .icons a {
+            display: inline-block;
+            margin: 0 40px 0 10px;
+            color: white;
+            transition: color 0.3s ease;
+        }
+        .icons a:hover {
+            color: #b300ff; 
+            font-size: 52;
+        }
+
+        .ic{
+            width: 40px;
+            height: 40px;
+        }
+            
+        #container4 h1{
+            margin-top: 20%;
+            font-size: 30px;
+            font-weight: bolder;
+        }

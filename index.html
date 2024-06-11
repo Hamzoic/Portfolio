@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO - HAMZA NASIR LODI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="#Home">HOME </a></li>
+                <li><a href="#Intro">INTRO </a></li>
+                <li><a href="#About">ABOUT </a></li>
+                <li><a href="#Contacts">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main">
+        <div class="container" id="Home">
+            <div class="infoContainer">
+                <div class="detail">
+                    <div class="devPic"><img src="picture.jpg" alt="ME"></div>
+                    <div class="name">Hamza Nasir Lodi</div>
+                    <div class="about">Web Developer, Student</div>
+                    <div class="buttons">
+                        <a href="#Contacts" class="btn">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="Intro">
+            <div class="introduction">
+                <h1>LET ME INTRODUCE MYSELF</h1>
+                <p>I am HAMZA NASIR LODI, currently a student of Computer Science studying in FAST university Karachi. My other interests include Calisthenics, Reading and Anime.
+                </p>
+            </div>
+        </div>
+
+        <div class="container" id="About">
+            <div class="myself">
+                <h1>ABOUT ME</h1>
+                <p>I have done my Matriculation from APS FF Centre Abbottabad and my FSC from Army Public Degree College and currently studying in National University of Computer and Emerging Sciences. I have been working on Front-End programming for quite some time. I thrive to become a full stack developer.</p>
+            </div>
+        </div>
+
+        <div class="container" id="Contacts">
+            <div class="contactForm">
+                <h1> CONTACTS </h1>
+                <div class="icons">
+                    <a class="ic" href="https://www.facebook.com/profile.php?id=100093720526681" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                    <a class="ic" href="https://www.instagram.com/hamzanasirlodi/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    <a class="ic" href="https://twitter.com/hamzanasirlodi" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () 
+        {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => 
+            {
+                anchor.addEventListener('click', function (e) 
+                {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
